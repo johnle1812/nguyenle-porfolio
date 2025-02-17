@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  min-width: 10vw;
+  border-right: 1px solid #282828;
+  background-color: #282828;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+nav {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+  margin-left: 10vw;
+  font-family: "Roboto Mono", serif;
+}
+
+#taskbar {
+  list-style-type: none;
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-top: 17vh;
+  font-family: "Roboto Condensed", serif;
+}
+
+.taskbarbutton {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+#homepage {
+  background-color: #121212;
+  margin-top: 0;
+  color: aliceblue;
+}
+
+#intro {
+  margin-top: 0;
+  padding-left: 10vw;
+  padding-top: 17vh;
+  font-size: 40px;
+}
+
+#jobtitle {
+  padding-left: 10vw;
+  font-size: 25px;
+}
+
+#about {
+  padding-left: 10vw;
+  font-size: 30px;
+}
