@@ -18,6 +18,8 @@ body {
 nav {
   display: block;
   unicode-bidi: isolate;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -33,29 +35,27 @@ main {
 
 #taskbar {
   list-style-type: none;
-  width: 100%;
-  /* margin-left: auto;
-  margin-right: auto; */
-  padding-top: 17vh;
+  padding-left: 0;
+  padding-top: 15vh;
   font-family: "Roboto Condensed", serif;
 }
 
 .taskbarbutton {
-  color: #fff;
+  color: #938ee9;
   font-size: 25px;
   margin-top: 35px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
 }
 
 .full-height {
   height: 100vh;
 }
 
-#homepage {
-  background-color: #121212;
+#homePage {
+  background-color: #9fa2ce;
   margin-top: 0;
-  color: aliceblue;
+  color: #121212;
 }
 
 #intro {
@@ -73,4 +73,50 @@ main {
 #about {
   padding-left: 10vw;
   font-size: 30px;
+}
+
+#aboutPage {
+  background-color: #121212;
+}
+
+.sectionTitle {
+  background-color: #938ee9;
+  height: 5rem;
+  position: relative;
+  font-weight: bold;
+}
+
+#aboutTitle {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 3rem;
+  font-size: 36px;
+}
+
+#someInfo {
+  max-width: 80%;
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  color: aliceblue;
+  padding-top: 50px;
+}
+
+#myAbilities {
+  list-style-type: none;
+  padding-left: 15vw;
+  padding-top: 30px;
+}
+
+.abilitiesBulletin {
+  font-size: 28px;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+#contactPage {
+  background-color: #3f3f3f;
 }

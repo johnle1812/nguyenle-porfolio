@@ -9,17 +9,25 @@
     <nav class="navbar">
       <ul id="taskbar">
         <li class="taskbarbutton">
-          <a class="nav-link" href="#homepage" style="text-decoration: none"
+          <a class="nav-link" href="#homePage" style="text-decoration: none"
             >Home</a
           >
         </li>
-        <li class="taskbarbutton">About</li>
-        <li class="taskbarbutton">Contact</li>
+        <li class="taskbarbutton">
+          <a class="nav-link" href="#aboutPage" style="text-decoration: none"
+            >About</a
+          >
+        </li>
+        <li class="taskbarbutton">
+          <a class="nav-link" href="#contactPage" style="text-decoration: none"
+            >Contact</a
+          >
+        </li>
       </ul>
     </nav>
 
     <main>
-      <section id="homepage" class="portfolioPages full-height">
+      <section id="homePage" class="portfolioPages full-height">
         <h1 id="intro">Hi, I'm Nguyen Le</h1>
         <h3 id="jobtitle">A Software Engineer</h3>
         <p id="about">
@@ -28,7 +36,26 @@
         </p>
       </section>
 
-      <section id="aboutPage" class="portfolioPages"></section>
+      <section id="aboutPage" class="portfolioPages full-height">
+        <div class="sectionTitle">
+          <h1 id="aboutTitle">About Me</h1>
+        </div>
+        <p id="someInfo">
+          I'm a Computer Science undergrad student at the University of Utah.
+          Getting into tech industry is my passion. I love striving either in
+          programming or in my personal life, and hate the feeling of giving up.
+        </p>
+        <ul id="myAbilities">
+          <li class="abilitiesBulletin" id="programmingLanguage">
+            <strong>Programming Language:</strong> Python, Java, HTML/CSS
+          </li>
+          <li class="abilitiesBulletin" id="speakingLanguage">
+            <strong>Speaking Language:</strong> English, Vietnamese
+          </li>
+        </ul>
+      </section>
+
+      <section id="contactPage" class="portfolioPages full-height"></section>
     </main>
   </body>
 </html>
