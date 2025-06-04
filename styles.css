@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -49,7 +53,7 @@ main {
 }
 
 .full-height {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #homePage {
@@ -73,17 +77,11 @@ main {
 #about {
   padding-left: 10vw;
   font-size: 30px;
+  max-width: 80vw;
 }
 
 #aboutPage {
   background-color: #121212;
-}
-
-.sectionTitle {
-  background-color: #938ee9;
-  height: 5rem;
-  position: relative;
-  font-weight: bold;
 }
 
 #aboutTitle {
@@ -103,12 +101,15 @@ main {
   margin-left: auto;
   color: aliceblue;
   padding-top: 50px;
+  margin-top: 0;
 }
 
 #myAbilities {
   list-style-type: none;
   padding-left: 15vw;
   padding-top: 30px;
+  padding-bottom: 30 px;
+  margin: 0;
 }
 
 .abilitiesBulletin {
@@ -119,6 +120,7 @@ main {
 
 #contactPage {
   background-color: #938ee9;
+  margin-top: 0;
 }
 
 .contact-list {
@@ -164,4 +166,44 @@ h3 {
 
 .nav-link:hover {
   color: aliceblue;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    border-right: 1px solid #282828;
+    background-color: #282828;
+    top: 0;
+    left: 0;
+    display: block;
+    unicode-bidi: isolate;
+  }
+
+  #taskbar {
+    padding-top: 0;
+    margin-left: 20px;
+    align-items: center;
+  }
+
+  .taskbarbutton {
+    float: inline-start;
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .navbar .taskbarbutton {
+    vertical-align: middle;
+  }
+
+  main {
+    margin-left: 0;
+    margin-top: 8vh;
+  }
+
+  #someInfo {
+    margin-top: 0;
+  }
 }
