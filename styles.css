@@ -160,15 +160,34 @@ h3 {
   margin-left: 80px;
 }
 
+.social-link {
+  color: #121212;
+  font-size: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: color 400ms;
+}
+
+.social-link:visited {
+  color: #121212;
+}
+
 .social-link:hover {
   color: aliceblue;
 }
 
+.nav-link {
+  transition: 400ms;
+}
 .nav-link:hover {
   color: aliceblue;
 }
 
-@media (max-width: 1024px) {
+.nav-link:active {
+  color: #938ee9;
+}
+
+@media (max-width: 820px) {
   .navbar {
     position: fixed;
     width: 100vw;
@@ -190,7 +209,7 @@ h3 {
   .taskbarbutton {
     float: inline-start;
     margin-left: 40px;
-    font-size: 30px;
+    font-size: 20px; /* Reduced for mobile */
     margin-top: 0;
   }
 
@@ -201,9 +220,91 @@ h3 {
   main {
     margin-left: 0;
     margin-top: 8vh;
+    font-size: 16px;
+  }
+
+  #intro {
+    font-size: 24px;
+    padding-left: 4vw;
+    padding-top: 10vh;
+  }
+
+  #jobtitle {
+    font-size: 16px;
+    padding-left: 4vw;
+  }
+
+  #about {
+    font-size: 18px;
+    padding-left: 4vw;
+    max-width: 92vw;
+  }
+
+  #aboutTitle {
+    font-size: 22px;
+    padding-left: 1.5rem;
   }
 
   #someInfo {
+    font-size: 20px;
+    padding-top: 10vh;
+    max-width: 96vw;
+  }
+
+  #myAbilities {
+    padding-left: 4vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .abilitiesBulletin {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  #contact-title {
+    font-size: 22px;
+    padding-top: 8vh;
+  }
+
+  .contact-box {
+    font-size: 16px;
+  }
+
+  .social-link {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: none !important;
+  }
+
+  main {
     margin-top: 0;
+  }
+
+  #contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-box {
+    text-align: center;
+  }
+
+  #direct-box {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #121212;
+  }
+
+  #social-media {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #someInfo {
+    font-size: 18px;
   }
 }
