@@ -254,6 +254,7 @@ h3 {
     font-size: 20px;
     padding: 10vh 4vw 0 4vw;
     max-width: 96vw;
+    margin-top: 0;
   }
 
   #myAbilities {
@@ -313,5 +314,6 @@ h3 {
 
   #someInfo {
     font-size: 18px;
+    margin-top: 0;
   }
 }
