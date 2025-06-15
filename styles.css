@@ -192,6 +192,18 @@ h3 {
   transition: 300ms;
 }
 
+.skill-icons {
+  height: 40px;
+  margin: 10px;
+}
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
 @media screen and (max-width: 820px) {
   .navbar {
     position: fixed;
@@ -315,5 +327,10 @@ h3 {
   #someInfo {
     font-size: 18px;
     margin-top: 0;
+  }
+
+  .skill-icons {
+    height: 30px;
+    margin: 5px;
   }
 }
