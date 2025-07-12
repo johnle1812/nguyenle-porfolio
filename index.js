@@ -1,7 +1,7 @@
 const projects = [
   {
     href: "https://johnle1812.github.io/Image-Search-Application/",
-    image: "images/projects/image-search-app.png",
+    image: "images/projects/new-img-search.png",
     title: "Image Search Application",
   },
   {
