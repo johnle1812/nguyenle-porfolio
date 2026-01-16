@@ -33,6 +33,8 @@ const progLangs = [
   }
 ]
 
+
+// Projects grid
 const projectsGrid = document.getElementById("projects-grid");
 
 let projectHTML = "";
@@ -58,6 +60,7 @@ projects.forEach((project) => {
 projectsGrid.innerHTML = projectHTML;
 
 
+// Programming Languages grid
 const progLangsContainer = document.getElementById("skills");
 
 let skillsHTML = "";
