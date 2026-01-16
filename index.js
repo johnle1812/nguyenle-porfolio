@@ -11,6 +11,28 @@ const projects = [
   },
 ];
 
+const progLangs = [
+  {
+    src: "icons/python.png",
+    alt: "python-icon",
+  }, {
+    src: "icons/java.png",
+    alt: "java-icon",
+  }, {
+    src: "icons/html.png",
+    alt: "html-icon",
+  }, {
+    src: "icons/text.png",
+    alt: "css-icon",
+  }, {
+    src: "icons/js.png",
+    alt: "js-icon",
+  }, {
+    src: "icons/postgresql.png",
+    alt: "postgresql-icon",
+  }
+]
+
 const projectsGrid = document.getElementById("projects-grid");
 
 let projectHTML = "";
@@ -34,3 +56,19 @@ projects.forEach((project) => {
 });
 
 projectsGrid.innerHTML = projectHTML;
+
+
+const progLangsContainer = document.getElementById("skills");
+
+let skillsHTML = "";
+progLangs.forEach((lang) => {
+  skillsHTML += `
+    <img
+      class="skill-icons"
+      src="${lang.src}"
+      alt="${lang.alt}"
+    />
+  `
+});
+
+progLangsContainer.innerHTML = skillsHTML;
