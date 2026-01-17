@@ -33,6 +33,19 @@ const progLangs = [
   }
 ]
 
+const socialMedia = [
+  {
+    href: "https://www.linkedin.com/in/nguyen-le-5754072b9/",
+    src: "icons/linkedin.png",
+    alt: "linkedin-icon",
+  }, {
+    href: "https://github.com/johnle1812",
+    src: "icons/github.png",
+    alt: "github-icon",
+  }
+]
+
+
 
 // Projects grid
 const projectsGrid = document.getElementById("projects-grid");
@@ -75,3 +88,26 @@ progLangs.forEach((lang) => {
 });
 
 progLangsContainer.innerHTML = skillsHTML;
+
+// Social Media links
+const socialMediaContainer = document.getElementById("social-media");
+let socialMediaHTML = `
+  <h3>Social Media</h3>
+`;
+
+socialMedia.forEach((media) => {
+  socialMediaHTML += `
+    <a
+      rel="noopener"
+      class="social-link"
+      target="_blank"
+      href="${media.href}"
+      ><img
+        class="contact-icons"
+        src="${media.src}"
+        alt="${media.alt}"
+    /></a>
+  `
+})
+
+socialMediaContainer.innerHTML = socialMediaHTML;
