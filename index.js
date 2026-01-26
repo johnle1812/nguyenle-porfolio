@@ -30,6 +30,12 @@ const progLangs = [
   }, {
     src: "icons/postgresql.png",
     alt: "postgresql-icon",
+  }, {
+    src: "icons/nodejs.png",
+    alt: "nodejs-icon",
+  }, {
+    src: "icons/c-sharp.png",
+    alt: "c-sharp-icon",
   }
 ]
 
