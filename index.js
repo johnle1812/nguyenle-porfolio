@@ -1,7 +1,7 @@
 const projects = [
   {
     href: "https://johnle1812.github.io/Image-Search-Application/",
-    image: "images/projects/new-img-search.png",
+    image: "images/projects/img-search-app.png",
     title: "Image Search Application",
   },
   {
@@ -9,6 +9,11 @@ const projects = [
     image: "images/projects/dice-roll-sim.png",
     title: "Dice Roll Simulator",
   },
+  {
+    href: "https://basic-login-page-7ynq.onrender.com/",
+    image: "images/projects/login-page.png",
+    title: "Login Page",
+  }
 ];
 
 const progLangs = [
