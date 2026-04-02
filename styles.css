@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #121212;
 }
 
 .navbar {
@@ -61,7 +62,8 @@ main {
 }
 
 .full-height {
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100svh;
 }
 
 #homePage {
@@ -428,6 +430,7 @@ h3 {
   .full-height {
     height: auto;
     min-height: 100vh;
+    min-height: 100svh;
   }
 
   body {
